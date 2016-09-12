@@ -22,15 +22,15 @@ If you want to change default configuration, two ways could achieve that:
 
 * Clone idic repo and under idic foler, run below command to change configuration for virtual compute node:
 
-    fakeroot make menuconfig NODE=vnode
+    `fakeroot make menuconfig NODE=vnode`
 
 * To make the configuration to build a virtual PDU:
 
-    fakeroot make menuconfig PDU=vpdu
+    `fakeroot make menuconfig PDU=vpdu`
 
 * Or, under specific virtual compute node directory (idic/vcomptue/&lt;node name&gt;/), or virtual pdu directory (idic/vpdu/&lt;pdu name&gt;/), and run
 
-    fakeroot make menuconfig
+    `fakeroot make menuconfig`
 
 ##Build idic
 
