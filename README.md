@@ -7,7 +7,7 @@
 ##Setup environment
 Prior to building idic, you should have Ubuntu 14.04 installed, and have the following packages installed on OS: 
 
-    sudo apt-get install -y build-essential
+    sudo apt-get install -y build-essential bc
     sudo apt-get install -y mkisofs autoconf pkg-config libtool nsis bison flex libncurses5 libncurses5-dev 
     sudo apt-get install -y zlib1g-dev libglib2.0-dev libpopt-dev libssl-dev python-dev git libdumbnet1 libdumbnet-dev tclsh
 
